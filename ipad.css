@@ -1,0 +1,112 @@
+@media screen  and (width: 900px){
+  
+
+  
+
+  body{
+      margin: 0;
+      padding: 0;
+      height:80vh;
+      width:100%;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden ;
+  }
+#main-container{
+    width: 100%;
+  
+}
+#slider{
+  width: 900px;
+  height: auto;
+ 
+  
+}
+nav{
+  margin-left: -23em;
+}
+ul li{
+  font-size: 16px;
+}
+.sliders{
+  width: 500%;
+  height: 90vh;
+  display: flex ;
+}
+.navigation-manual{
+margin-left: -5em;
+}
+
+.navigation-auto {
+ margin-left: -5em;
+}
+#play{
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: center;
+
+  
+}
+
+.inline{
+width: 60em;
+  
+}
+   
+.logo{
+  width: 300px;
+  margin-left: 18em;
+  margin-top: 2em;
+}
+.sponsors{
+ 
+   margin-left: 10em;
+ margin-top: 2.5em;
+  }
+  .para{
+    text-align: center;
+    margin-top:1em;
+    font-size: 16px;
+    line-height: 20px;
+   margin-left: 4em;
+  
+}
+
+.oba, .bottom{
+  display: none;
+}
+h3{
+  text-align: right;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 5px;
+
+}
+.imgs1{
+  width: 130px;
+  height: 50px;
+ 
+}
+.imgs2{
+  width: 120px;
+  margin-top: -1em;
+ 
+}
+.imgs3{
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: -0.1em;
+}
+.queen2, .bottom3{
+display: none;
+}
+.bigdiv{
+  margin-left: 10em;
+}
+
+
+  
+}
+

@@ -1,0 +1,1369 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+  
+    height: 100vh;
+}
+
+   
+body{
+    margin: 0;
+    padding: 0;
+ width: 100%;
+   height: 100vh;
+   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+    position: relative;
+
+
+}
+.header{
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 8em;
+  z-index: 2;
+  padding-bottom: 5px;
+  border-bottom: 3px solid black;
+  background-color: #fff;
+  padding-top: 2em;
+}
+.one{
+    flex: 1;
+}
+
+.navbar{
+  flex: 2;
+}
+.two{
+    flex: 1;
+}
+.navbar ul{
+display: flex;
+justify-content: space-evenly;
+list-style: none;
+}
+.cool-link{
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+    font-family: 'nunito';
+  
+ 
+}
+.cool-link::before{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: width .3s;
+}
+.cool-link:hover::before{
+    width: 100%;
+    transition: width .3s;
+
+
+}
+.cool-link:is(:link,:active,:visited).actived{
+    border-top: 3px solid black;
+}
+
+
+.navbar2{
+    flex: 2;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+  
+    }
+
+
+
+    /*sliders*/
+   
+    #slider{
+       
+    overflow: hidden;
+
+    }
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+   animation: 30s slider infinite;
+   
+   
+}
+
+#slider figure img{
+width: 20%;
+float: left;
+}
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50%{
+        left:-200%
+    }
+    70%{
+        left:-200%
+    }
+    75%{
+        left:-300%
+    }
+    95%{
+        left:-300%
+    }
+    100%{
+        left: -400%;
+    }
+}
+@-webkit-keyframes slider{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50%{
+        left:-200%
+    }
+    70%{
+        left:-200%
+    }
+    75%{
+        left:-300%
+    }
+    95%{
+        left:-300%
+    }
+    100%{
+        left: -400%;
+    }
+}
+
+
+    .footer{
+  
+        height: 101px;
+        width:100%;
+        background-color: black;
+        display: flex;
+        
+       justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: -3em;
+     
+        
+}
+.footerdiv2{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*The Stage Play*/
+
+
+
+.logo{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+       
+
+}
+.moveimg{
+   
+    margin-top: 4em;
+}
+
+.ptag{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    margin-top: -1.5em;
+}
+.para{
+    text-align: center;
+    margin-top: 2em;
+    font-size: calc(16px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+   
+}
+
+.paranew{
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-left: 20em;
+}
+.para2{
+    text-align: left;
+    margin-top:-9em ;
+    font-size: calc(18px +2vw);
+    line-height: 22px;
+    font-family: 'nunito';
+    font-weight: 200;
+    margin-left: 40em;
+}
+
+
+
+.imgs1{
+  height: 40px;
+  
+   
+}
+.imgs2{
+    width: 80px;
+  margin-left: 1em;
+   
+}
+.imgs3{
+    width: 130px;
+ 
+}
+.imgs4{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+   
+}
+.imgs5{
+   
+    width: 80px;
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
+.imgs6{
+   width: 40px;
+  
+    margin-left: 10px;
+}
+.imgs7{
+    width: 140px;
+    margin-left: 10px;
+    margin-top: -10px;
+ }
+.sponsors-Silver{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:3em;
+     
+    
+}
+.sponsors-Bronze{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+     
+    
+}
+h3{
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'nunito';
+    font-weight: 400;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+.oba{
+    width: 300px;
+    display: flex;
+   
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: -2em;
+
+
+}
+.queen3{
+    width: 300px;
+    display: flex;
+    margin-bottom: -2em;
+   justify-content: center;
+      align-items: center;
+      margin-left:auto;
+      margin-right: auto;
+ }
+.royals{
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    position: relative;
+}
+
+.moveroyals{
+    margin-top: 5em;
+}
+
+
+
+.bottom{
+    height: 101px;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10em;
+    
+ 
+   
+}
+
+
+
+       
+
+
+        /*Ticket*/
+#ticket{
+         height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-items: center;
+           }    
+  
+            .names3{
+                display: flex;
+                flex-direction: row;
+                margin-left: 1em;
+                margin-right: auto;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1em;
+            }
+            
+.logo2{
+                width: 400px;
+                display: flex;
+                flex-direction: row;
+               justify-content: center;
+                  align-items: center;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 15px;
+                   
+               
+               }
+.bigdiv{
+            width: 530px;
+            height: 350px;
+            border: 2px solid black;
+            margin-top: 3em;
+            padding: 30px;
+            margin-left:auto ;
+            margin-right: auto;
+}
+  
+.date{
+             border-bottom: 2px solid black;
+             width: 100px;
+             font-size: 20px;
+             font-family: 'nunito';
+        }
+.inputname{
+           height: 40px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            padding-right:10px ;
+            font-family: "nunito";
+            color: black;
+
+        }
+        
+        .inputdiv{
+            width: 430px;
+     border-bottom: #000 2px solid;
+    padding: 5px;
+   margin-left: 40px;
+   margin-top: 60px;
+         }
+    
+         .inputdivanother{
+            width: 430px;
+            border-bottom: #000 2px solid;
+           padding: 5px;
+          margin-left: 40px;
+          margin-top: px;
+            
+            }
+        .inputemail{
+
+            height: 30px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            padding-right:10px ;
+            font-family: "nunito";
+            color: black;
+
+        }
+        .inputdiv2{
+            width: 460px;
+     
+    border-bottom: #000 2px solid;
+   
+    padding: 5px;
+   
+   margin-left: 40px;
+   margin-top: 10px;
+  
+   
+        }
+        .phone{
+            width: 330px;
+     
+    border-bottom: #000 2px solid;
+   
+    padding: 5px;
+   display: flex;
+   flex-direction: row;
+   margin-left: 10px;
+   margin-top: 10px;
+  
+   
+        }
+        button{
+           width: 80px;
+           height: 30px;
+           background-color: black;
+           color: #fff;
+           border: none;
+            outline: none;
+          position: relative;
+          left: 20em;
+       cursor: pointer;
+          top: -0.9em;
+          font-size: 18px;
+          font-family: 'nunito';
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        .paystack{
+            left: 11em;
+            top: 4em;
+        }
+        td{
+            text-align: center;
+            font-family: 'cinzel';
+        }
+        th{
+            font-size: 12px;
+            font-family: 'cinzel';
+            margin: auto;
+
+        }
+        .customers{
+            text-align: left;
+            font-size: 12px;
+            font-family: 'nunito';
+        }
+        .move{
+            margin-top: -4em;
+            margin-left: -2em;
+        }
+        .moveinputs{
+            margin-top: 1em;
+
+        }
+      .names2{
+display: flex;
+flex-direction: row;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+align-items: center;
+      }
+      
+      .mylogo{
+display: flex;
+
+      }
+      .regular{
+          font-family: 'nunito';
+          font-size: 16px;
+          margin-left: 0.5em;
+         text-align:center;
+          line-height: 16px;
+          font-weight: 400;
+        
+      }
+     
+.divdate{
+        display: flex;
+    
+      }
+      .inputdate{
+        width: 200px;
+        border-bottom: #000 2px solid;
+       padding-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       margin-left: 10px;
+       margin-top: 20px;
+      }
+      .inputTicket{
+        width: 430px;
+      border-bottom: #000 2px solid;
+       padding-bottom: 20px;
+        margin-left: 10px;
+        display: flex;
+      justify-content: space-between;
+    
+
+      }
+      .inputtime{
+        width: 200px;
+        border-bottom: #000 2px solid;
+      background: #fff;
+        padding-bottom: 20px;
+       display: flex;
+       flex-direction: row;
+       margin-right: 14px;
+       margin-top: 20px;
+       margin-left: 30px;
+
+      }
+     
+select{
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          appearance: none;
+          outline: none;
+          border: 0!important;
+          background: #fff;
+          width: 300px;
+          box-shadow: none;
+          font-size: 14px;
+          font-family: 'nunito';
+          color: grey;
+          cursor: pointer;
+          background-image:none ;
+          display: flex;
+          flex-direction: row;
+      }
+
+      .moveticket{
+          margin-top: 60px;
+      }
+      .select::after{
+        content: '\25bc';
+     background-color: #000;
+       
+       
+    }
+      .inputdate::after {
+          content: '\25bc';
+          cursor: pointer;
+          pointer-events: none;
+          transition: 0.25 all ease;
+        
+         
+      }
+
+      .inputtime::after {
+        content: '\25BC';
+        cursor: pointer;
+        pointer-events: none;
+        transition: 0.25 all ease;
+
+    }
+    .inputTicket::after{
+        content: '\25BC';
+        cursor: pointer;
+        pointer-events: none;
+        transition: 0.25 all ease;
+       
+    }
+    .inputtime:hover::after {
+        color: grey;
+    }
+    .inputdate:hover::after {
+        color: grey;
+
+    }
+   .inputTicket:hover:after {
+        color: grey;
+
+    }
+    .olubiul  li{
+       margin: 0 15px;
+        font-size: 18px;
+        font-weight: 200;
+        font-family: 'cinzel';
+        cursor: pointer;
+    }
+    select::-ms-expand{
+      display: none;
+    }
+
+    /*The cast*/
+    .bodyContainer{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+   .the-cast{
+       display: flex;
+       margin:0 auto;
+       justify-content: center;
+      
+   }
+
+ h2{
+   
+    font-size: 20px;
+    font-family: 'nunito';
+ }
+ h4{
+    font-size: 14px;
+    font-family: 'nunito';
+    text-align: center;
+    
+ }
+    .biocontainer{
+display: flex;
+    }
+.doylebio{
+    font-size: 14px;
+    font-family: 'nunito';
+text-align: right;
+
+}
+.doyleimageandname{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+.castContainer{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.castmembers{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.doyle{
+    display: flex;
+   margin-right: 1em;
+}
+.nobert{
+    display: flex;
+   margin-left: 1em;
+}
+.doyleimage{
+    width: 120px; 
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.biodoylrcontainer{
+    display: flex;
+}
+
+.nobertbio{
+    font-size: 14px;
+    font-family: 'nunito';
+text-align: left;
+
+}
+
+
+
+ @media screen and (min-width: 1025px){
+#slider2{
+    display: none;
+}
+.moveolubi2{
+    display: none;
+}
+.ptagplay{
+    display: none;
+}
+
+.wordgold2{
+display: none;
+}
+.myparaphone2{
+    display: none;
+}
+.para2phone2{
+    display: none;
+}
+.paranewphone2{
+    display: none;
+}
+.moveolubi3{
+    display: none;
+}
+.olubiul2{
+    display: none;
+
+}
+.footer2{
+    display: none;
+}
+
+}
+
+
+
+@media screen and (min-width: 701px) and  (max-width: 1024px){
+
+    .wordgold2{
+           
+        display: none;
+    }
+    .ptagplay{
+        display: none;
+    }
+    .myparaphone2{
+        display: none;
+    }
+    .para2phone2{
+        display: none;
+    }
+    .paranewphone2{
+        display: none;
+    }
+    .moveolubi3{
+        display: none;
+   
+    }
+    .nav-links li{
+        margin-left:20em;
+     
+       
+    }
+    .olubiul2{
+      margin-left: -18em;  
+      margin-top: 1em;
+    }
+   
+  .nav-links li{
+    margin:2em 1em 1em 18em;
+    font-size: 16px;
+   
+}
+  }
+
+@media screen and (max-width:700px){
+.logo{
+          width: 300px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 15px;
+        }
+        .logo2{
+            width: 300px;
+          
+           
+          }
+      
+        
+          .wordgold2{
+            text-align: center;
+            margin-top: 2em;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'nunito';
+            font-weight: 200;
+          }
+
+        .paraplay{
+            text-align: center;
+            margin-top: 2em;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: 'nunito';
+            font-weight: 200;
+           
+        }
+        .ptag{
+            display: none;
+        }
+        .wordgold{
+           
+            display: none;
+        }
+        .goldlogo{
+            width: 20px;
+           
+            }
+        .sponsors-Silver{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+              align-items: center;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top:3em;
+             
+            
+        }
+        .sponsors-Bronze{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+              align-items: center;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 1em;
+             
+            
+        }
+        h3{
+            text-align: center;
+            font-size: 14px;
+            line-height: 16px;
+            font-family: 'nunito';
+            font-weight: 400;
+            margin-right: 15px;
+            margin-left: 15px;
+            margin-top: 5px;
+        
+        }
+
+.imgs2{
+   margin-top: 1em;
+}
+.imgs1{
+    margin-top: 1em;
+     
+  }
+.imgs5{
+    margin-top: 1em;
+
+}
+.imgs6{
+margin-top: 1em;
+}
+.imgs7{
+    margin-top: 1em;
+    }
+.bigdiv{
+    width: 300px;
+    height: 470px;
+   
+}
+
+.inputTicket{
+    width: 220px;
+ 
+}
+.divdate{
+    flex-direction: column;
+}
+.inputdate{
+    width: 220px;
+}
+.inputtime{
+    width: 220px;
+    margin-left: 10px; 
+}
+.inputdiv{
+    width: 220px;    
+}
+.inputdivanother{
+    width: 220px;    
+}
+.phone{
+    width: 220px;
+    flex-direction: column;
+   
+}
+button{
+   
+   left: 7.3em;
+cursor: pointer;
+   top: 1.8em;
+   width: 100px;
+   height: 50px;
+   position: relative;
+ 
+
+ }
+ .myparaphone{
+     display: none;
+ }
+ .paranewphone{
+    display: none;
+ }
+ .para2phone2{
+    text-align: center;
+  margin-top: 2em;
+    font-size: 15px;
+    line-height: 17px;
+    font-family: 'nunito';
+    font-weight: 200;
+ 
+}
+.paranewphone2{
+  text-align: center;
+  margin-top: 1em;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'nunito';
+  font-weight: 200;
+
+
+}
+.moveolubi2{
+    display: none;
+}
+
+
+}
+
+
+    
+@media screen and  (max-width:1000px){
+    .para2phone{
+        text-align: center;
+      margin-top: 2em;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'nunito';
+        font-weight: 200;
+        margin-left: 10em;
+    }
+   
+    .paranewphone{
+      text-align: center;
+      margin-top: 1em;
+      font-size: 16px;
+      line-height: 20px;
+      font-family: 'nunito';
+      font-weight: 200;
+      position: relative;
+      margin-left: 10em;
+    
+    }
+    
+.myolubi3{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    margin-top: -2em;
+    margin-left: 20em;
+}
+.names2{
+    flex-direction: column;
+}
+
+.royals{
+    display: none;
+}
+.bottom{
+    display: none;
+}
+
+
+.olubiul2{
+    margin-left: -4em;  
+    margin-top: 1em;
+  }
+  .nav-links li{
+    margin:2em 1em 1em 5em;
+    font-size: 16px;
+   
+}
+
+.footerdiv{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    background-color: #000;
+    height: 500px;
+    width: 100vw;
+
+
+  
+}
+
+.footerdiv i {
+  margin-top: 2em;
+  margin-bottom: 2em;
+    
+  
+}
+
+.movequeengold{
+    display: none;
+}
+
+.nav-links{
+    position: fixed;
+    background:#fff;
+    height: 100vh;
+    width: 120%;
+    flex-direction: column;
+     align-items: left;
+     justify-content: center;
+    top: 2em;
+    left:-1% ;
+    clip-path: circle(100px at 90% -20% ) ;
+    -webkit-clip-path: circle(100px at 90% -20% ) ;
+    transition: all 1s ease-out;
+    }
+    .nav-links.open{
+
+        clip-path: circle(1300px at 90% -10% ) ;
+        -webkit-clip-path: circle(1300px at 90% -10% ) ;
+        }
+  
+        .castmembers{
+            flex-direction: column;
+        }
+    
+        .doyle{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .nobert{
+            flex-direction: column;
+           align-items: center;
+        }
+    .nobertbio{
+       text-align: center;
+       margin-top: 2em;
+       margin-right: 1em;
+    }
+    .doylebio{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 1em;
+    
+    }
+   
+    .doyleimageandname{
+        order: 1;
+    }
+    .biodoylecontainer{
+        order:2;
+    }
+}
+
+
+@media screen and (max-width:850px){
+    .para2phone{
+        text-align: center;
+      margin-top: 2em;
+        font-size: 12px;
+        line-height: 16px;
+        font-family: 'nunito';
+        font-weight: 200;
+       
+    }
+   
+    .paranewphone{
+      text-align: center;
+      margin-top: 1em;
+      font-size: 12px;
+      line-height: 16px;
+      font-family: 'nunito';
+      font-weight: 200;
+      position: relative;
+    }
+  
+      .paystack{
+            left: 3em;
+            top: 4em;
+        }
+}
+
+
+@media screen and (max-width:480px){
+    .nobertbio{
+        font-size: 12px;
+     }
+     .doylebio{
+   font-size: 12px;
+     
+     }
+}
+
+
+
+@media screen and (max-width:1024px){
+   #slider{
+       display: none;
+   }
+    #slider2 .figure2{
+        position: relative;
+        width:500%;
+        margin: 0;
+        left: 0;
+       animation: 40s slider infinite;
+     
+    }
+    .olubiul .cast{
+        display: none;
+    }
+  
+    
+#slider2{
+        overflow: hidden;
+        }
+    
+    .menu{
+        width: 30px;
+        height: 3px;
+        background: black;
+        margin: 5px;
+    }
+
+
+    .nav-links{
+    position: fixed;
+    background:#fff;
+    height: 100vh;
+    width: 120%;
+    flex-direction: column;
+     align-items: left;
+     justify-content: center;
+    top: 2em;
+    right:-1% ;
+    clip-path: circle(100px at 90% -20% ) ;
+    -webkit-clip-path: circle(100px at 90% -20% ) ;
+    transition: all 1s ease-out;
+    overflow-y: scroll;
+    }
+    .cool-link:hover{
+        color: #fff;
+        background: black;
+        }
+
+        
+
+    .nav-links.open{
+
+    clip-path: circle(1500px at 90% -20% ) ;
+    -webkit-clip-path: circle(1500px at 90% -20% ) ;
+    }
+   
+    .navbar2{
+        position: relative;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        left: -30%;
+        top: 30%; 
+        transform: translate(5%, -50%);
+        z-index: 2;
+    }
+    #slider2 .figure2 img{
+    width: 20%;
+    float: left;
+    }
+    @keyframes slider{
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50%{
+            left:-200%
+        }
+        70%{
+            left:-200%
+        }
+        75%{
+            left:-300%
+        }
+        95%{
+            left:-300%
+        }
+        100%{
+            left: -400%;
+        }
+    }
+    @-webkit-keyframes slider{
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50%{
+            left:-200%
+        }
+        70%{
+            left:-200%
+        }
+        75%{
+            left:-300%
+        }
+        95%{
+            left:-300%
+        }
+        100%{
+            left: -400%;
+        }
+    }
+    .moveolubi{
+        display: none;
+    }
+    .para2phone{
+        text-align: center;
+      margin-top: 2em;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: 'nunito';
+        font-weight: 200;
+       
+    }
+    .paranewphone{
+      text-align: center;
+      margin-top: 1em;
+      font-size: 16px;
+      line-height: 20px;
+      font-family: 'nunito';
+      font-weight: 200;
+      position: relative;
+    }
+    .myolubi2{
+
+       display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: -2em;
+     
+    }
+    .myolubi3{
+        margin-top: -6em;
+        margin-left: -4em;
+    }
+   
+    .movequeen2{
+        right: 8.5em;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+        position: relative;
+    }
+ .footer{
+display: none;
+ }
+ .footer2{
+     margin-top: -3em;
+ }
+  
+}
+
+
+
+

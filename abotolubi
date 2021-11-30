@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <script src="./script.js"></script>
+    <div id="main-container">
+    <nav>
+        <ul  >
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <li><a href="index.html" class="cool-link">HOME </a></li>
+        <li><a href="thestageplay.html" class="cool-link">THE STAGE PLAY</a></li>
+        <li><a href="about.html" class="cool-link">ABOUT</a></li>
+        <li><a href="ticket.html" class="cool-link">TICKET</a></li>
+         </ul>
+            </nav>
+
+           
+            <section id="about">
+                <div id="about-play">
+                <div class="inline"></div>
+                <div class='names'>
+                
+                <nav class="crewli">
+                    <ul class="olubiul">
+                 <li><a href="#lilianolubi">LILIAN OLUBI</a></li>
+                       <li><a href="#olatundeoduwole" >OLATUNDE ODUWOLE</a></li>
+                       <li><a href="#director" >CREW</a></li>
+                       <li><a href="#gold" >GOLD LILIES</a></li>
+                        </ul>
+                    </nav>
+                <div class="smalldivs">
+                <div class="divolubi1"></div>
+                <div class="divolubi2"></div>
+                <div class="divolubi3"></div>
+            </div>
+                </div>
+
+               
+                <div class="moveolubi">
+                <img class="olubi2" src="./images/OlubiPortrait.png" alt="">
+                <h1 class="lilianPhone">LILIAN OLUBI</h1>
+                <p class="para2"> 
+                LILIAN OLUBI Lilian Olubi is a Finance and investment professional with over <br>
+                twenty years of Capital Markets experience. She is currently the CEO of a leading<br>
+                Investment services firm in Nigeria and has had a diverse career in a few leading<br>
+                institutions at different life cycles with a track record of driving growth. A woman<br>
+                of many parts, Lilian is enthusiastic about public service and civic responsibility<br>
+                and is a firm advocate for social enterprises and SMEs as the engine<br>
+                house of a strong economy.
+                </p>
+                <p class="paranew"> 
+                She founded The Gold Lilies Global Services, a social venture conglomerate providing value<br>
+                across different sectors. She has been a boardroom judge for the past seven seasons of the successful<br>
+                entrepreneurship reality TV show – ‘The Next Titan’ which promotes enterprise among youths by pruning<br>
+                their business ideas, sharpening acumen and providing business capital. She sits on several boards<br>
+                in the corporate and social sector and is the co-founder of Drug Aid Africa Initiative.<br><br>
+                “Osamede, the Stage Play” which is her debut project in the arts is a tool she intends to utilize as an<br>
+                avenue to raise the crucial topics of human rights, women’s role in social change, creation of job opportunities<br>
+                for youths and to promote the creative arts industry in Nigeria with the strength of her corporate background.<br> 
+                Lilian is a Chartered Stockbroker and Authorized Dealing Clerk of the Nigerian Stock Exchange, she holds<br>
+                a Bsc in Business Administration from the University of Benin and a Masters of leadership in<br>
+                Development Finance from the Frankfurt school of Finance & Management, Germany.<br>
+                She is also an author and is happily married and blessed with two lovely children.<br><br>
+                </p>
+            </div>                    
+                <img class="queen" src="./images/Queen_Benin.png" alt="">
+                <div class="bottom2">
+                </div>
+                </div>
+            </div>
+                <div id="olatundeoduwole">
+                <div class="Portraitola">
+                <div class="moveola">
+                <img class="olatunde" src="./images/OduwolePortrait.png" alt="">
+                <h1 class="oduwolePhone">OLATUNDE ODUWOLE</h1>
+                <p class="paraola"> 
+                OLATUNDE ODUWOLE is a Fellow of The Institute of Chartered<br>
+                Accountants of NIgeria (ICAN) and an International Associate of the<br>
+                of Science degree in Banking and Finance from Boston University,<br>
+                Massachusetts USA, with over 25 years work experience in commercial <br>
+                finance, corporate strategy, business development, audit, tax and<br>
+                accounting in the oil and gas industry, audit and management<br>
+                consulting across Africa, Europe and North America.
+                </p>
+                <p class="paranew"> 
+                He is the Head of Finance, Oil and Gas Projects, Shell Petroleum Development<br>
+                Company. Nig. Ltd and until recently, the Finance Director of Shell Nigeria Gas Limited and<br>
+                Director on the Board of West Africa Gas Pipeline Company Limited (WAPCO). He has led several<br>
+                complex multi-billion dollars commercial transactions in the oil and gas sector in Nigeria, including<br>
+                the recently completed financing for Nigeria LNG (NLNG) Train 7 expansion program.<br><br><br>
+                                        
+                Tunde is an adventurous traveller, he enjoys playing the saxophone, reading, and<br>
+                theatre production. He produced the highly acclaimed play “Gula on Stage” in 2017<br>
+                a riveting story based on President Obasanjo’s prison experience. He is happily<br>
+                married to Dr. Jumoke Oduwole and they are blessed with two lovely children.
+                </p>
+                </div>
+                         
+            </div>
+                
+                <div id="   ">                               
+                <div class="ajayi">
+                <div class="moveolubi">
+                <img class="olubi" src="./images/AjayiPortrait.png" alt="">
+                <p class="para2"> 
+                AYO AJAYI / Director / he is a theatre producer and director is a pioneer music<br>
+                director in the Nigerian theatre industry who to date has directed well over 50<br>
+                musicals producing some of Nigeria's finests. His active participation in the<br>
+                Nigerian theatre space started when he directed the music of the popular<br>
+                Saro the musical and Wakaa the musical (Lagos & London) both from<br>
+                the stables of BAP Production. 
+                </p>
+                <p class="paranew"> 
+                                    She founded The Gold Lilies Global Services, a social venture conglomerate providing value<br>
+                                    across different sectors. She has been a boardroom judge for the past seven seasons of the successful<br>
+                                    entrepreneurship reality TV show – ‘The Next Titan’ which promotes enterprise among youths by pruning<br>
+                                    their business ideas, sharpening acumen and providing business capital. She sits on several boards<br>
+                                    in the corporate and social sector and is the co-founder of Drug Aid Africa Initiative.<br><br>
+                                    
+                                    “Osamede, the Stage Play” which is her debut project in the arts is a tool she intends to utilize as an<br>
+                                    avenue to raise the crucial topics of human rights, women’s role in social change, creation of job opportunities<br>
+                                    for youths and to promote the creative arts industry in Nigeria with the strength of her corporate background.<br> 
+                                    Lilian is a Chartered Stockbroker and Authorized Dealing Clerk of the Nigerian Stock Exchange, she holds<br>
+                                    a Bsc in Business Administration from the University of Benin and a Masters of leadership in<br>
+                                    Development Finance from the Frankfurt school of Finance & Management, Germany.<br>
+                                    She is also an author and is happily married and blessed with two lovely children.<br><br>
+                                
+                            </div>
+                            
+                    </div>
+                
+                        </div>
+                    </div>    
+                    <div id="goldlilies">
+                <div class="movegold">
+                <img class="gold" src="./images/Gold lilies Logo.png" alt="">
+                <p class="paragold"> 
+                Gold Lilies Global Services was founded in 2017 in Lagos, Nigeria as a social<br>
+                impact outfit for diverse causes. It has gone ahead to be the funding instrument and<br>
+                corporate representation for both philanthropic and commercial ventures amongst other<br>
+                initiatives. Inspired by its overarching objectives to promote excellence and humanity, the<br>
+                vision of the entity and all its expressions is simple – Bringing inspiration and<br>
+                empowerment opportunities, to be a lighthouse to help create<br>
+                better human experiences.
+                </p>
+            </div>    
+                </div>
+                </div>
+                </div>
+</div>
+</body>
+</html>

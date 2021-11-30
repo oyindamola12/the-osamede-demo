@@ -1,0 +1,62 @@
+@media screen and (max-width:900px){
+    body{
+        margin: 0;
+      padding: 0;
+      height:80vh;
+      width:100%;
+      justify-content: center;
+      overflow-x: hidden;
+      overflow-y: hidden ;
+    }
+    .wordsalignleft{
+        text-align: center;
+        margin-top: 5em;
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: -27em;
+      }
+      .wordsalignright{
+        font-size: 16px;
+        line-height: 20px;
+      
+      }
+      .words{
+          margin-left: -2em;
+          margin-top: -3em;
+      }
+      
+      
+      .olubiul{
+        margin-left: 6em;
+      }
+      .goldlogo{
+        width: 200px;
+        margin-left: 30em;
+        margin-top: 4em;
+        }
+      .queenbottomgolds{
+        display: none;
+      }
+      .thelies{
+        font-size: 18px;
+    
+      }
+      .crewli{
+          margin-left: -25em;
+      }
+      .lilians{
+       width: 159px;
+       height: 140px;
+       margin-left: 10em;
+       margin-top: 2em;
+      }
+      .queenbottom{
+          display: none;
+      }
+      .parent{
+          width: 100vw;
+          height: 100vh;
+          overflow-y: hidden;
+          overflow-x: hidden;
+      }
+}

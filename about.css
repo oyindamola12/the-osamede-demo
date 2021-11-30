@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+
+
+
+/*about-play*/
+
+
+
+.gold{
+    width: 250px;
+}
+h1{
+  display: none;
+}
+.bottom2{
+  height: 101px;
+  width:100vw;
+  background-color: black;
+  margin-left: 3.7em;
+  margin-top: -2em;
+
+
+
+ 
+}
+
+
+.queen{
+    width: 300px;
+    display: flex;
+   
+   justify-content: center;
+      align-items: center;
+      margin-left:auto;
+      margin-right: auto;
+     
+ }
+.queen2{
+    width: 300px;
+    display: flex;
+    top: 8em;
+   justify-content: center;
+      align-items: center;
+      margin-left:auto;
+      margin-right: auto;
+      position: relative;
+ }
+ .royals2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+   top: 15em;
+    position: relative;
+}
+
+
+
+
+.names2{
+    display: flex;
+   
+    width: 100%;
+  
+   margin-right: auto;
+   justify-content: center;
+ margin-top: 4em;
+ margin-left: 1.5em;
+}
+      
+.olubiul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+    margin-right:50px ;
+}
+ .cast{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'cinzel';
+ }
+.cast:is(:link,:active,:visited).active{
+    color: grey;
+}
+.cast:hover{
+    color: grey;
+}
+
+
+.myolubi{
+    
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+   margin-right:  27em;
+      margin-top: 3em;
+
+
+}
+.olubi{
+    left: 2em;
+    top: 1em;
+    position: relative;
+}
+
+      .para2{
+          text-align: left;
+        
+          font-size: calc(16px +2vw);
+          line-height: 22px;
+          font-family: 'nunito';
+          font-weight: 200;
+          margin-left: 45%;
+          position: relative;
+      }
+      .paranew{
+        text-align: center;
+        margin-top: 2em;
+        font-size: calc(16px +2vw);
+        line-height: 22px;
+        font-family: 'nunito';
+        font-weight: 200;
+        margin-left: 13%;
+        position: relative;
+      }
+      .moveparaolubi{
+         display: flex;
+          width: 90%;
+          justify-content: center;
+          align-items: center;
+          margin: auto;
+          margin-top:1em ;
+      }
+     .olubiul li:active {
+          color: grey
+      }
+      .moveolubi{
+        margin-top: -1em;
+          margin-left: -6em ;
+         
+}
+.royals2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+   top: -6em;
+    position: relative;
+}
+
+
+
+.movequeen{
+    margin-right: -2em;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3em;
+}
+.movequeen2{
+    margin-right: -13em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.movequeentunde{
+    margin-left: 8em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.movequeengold{
+   
+    justify-content: center;
+    align-items: center;
+bottom: -8em;
+position: relative;
+}
+
+
+.goldlogo{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+    }
+
+.wordgold{
+
+    text-align: center;
+    font-size: calc(18px +2vw);
+    line-height: 24px;
+    font-family: 'nunito';
+
+    margin-top: 1em;
+    font-weight: 200;
+}
+.moveall4{
+
+       justify-content: center;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       margin-left: 35em;
+       margin-right: auto;
+
+}
+
+
+ 
+.queenbottom2{
+    margin-top: 1.2em;
+    margin-left: 20.5em;
+    position: relative;
+  
+}
+
+    
+.newul li{
+                    display: inline-block;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    font-size: calc(18px +2vw);
+                    font-weight: 200;
+                    font-family: 'Cinzel';
+                    cursor: pointer;
+                }
+                
+               @media screen and (max-width:700px){
+                .goldlogo{
+                    width: 200px;
+                    margin-top: -2em;
+                 
+                    }
+               }

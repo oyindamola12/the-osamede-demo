@@ -1,0 +1,213 @@
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.781);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background-color: #fff;
+    width: 500px;
+    height: 650px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+  
+
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.popup.activing .overlay{
+display: block;
+}
+.popup.activing .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+    }
+
+    .read1{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+        margin-top: 1em;
+        left: 16em;
+    }
+    .read2{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+        margin-top: 1em;
+        left: 0em;
+    }
+    .read3{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+        margin-top: 1em;
+        left: 14em;
+    }
+    .read4{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+        margin-top: 1em;
+        left: 12.5em;
+    }
+   
+    .read5{
+        background-color: #fff;
+        color: #000;
+        font-size: 14px;
+        outline: none;
+        margin-top: 1em;
+        left: 0em;
+    }
+    .popoup-text1{
+        font-family: 'nunito';
+        font-size: 14px;
+        margin-left: 3em;
+        margin-top: 3em;
+    }
+    .popoup-text2{
+        font-family: 'nunito';
+        font-size: 14px;
+        margin-left: 6em;
+        margin-top: 3em;
+    }
+    .popoup-text4{
+        font-family: 'nunito';
+        font-size: 14px;
+        margin-left: 6em;
+        margin-top: 3em;
+    }
+    .popoup-text3{
+        font-family: 'nunito';
+        font-size: 14px;
+        margin-left: 4em;
+        margin-top: 3em;
+    }
+
+    @media screen and (max-width:500px){
+       .read1{
+left:8em;
+top:-1.3em;
+
+       }
+
+       
+       .read2{
+        left:5em;
+        top:-1.3em;
+    }
+    .read3{
+        left:7em;
+        top:-1.3em;
+    }
+    .read4{
+        background-color: #fff;
+        left:6em;
+        top:-1.3em;
+    }
+    .read5{
+        left:4em;
+        top:-1.3em;
+    }
+       
+    .popoup-text1{
+        font-family: 'nunito';
+        font-size: 10px;
+       
+    }
+    .popoup-text2{
+        font-family: 'nunito';
+        font-size: 10px;
+     
+    }
+    .popoup-text3{
+        font-family: 'nunito';
+        font-size: 10px;
+        
+    }
+    .popoup-text4{
+        font-family: 'nunito';
+        font-size: 10px;
+        margin-left: 3em;
+        
+    }
+    .popup .overlay{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 1;
+        display: none;
+    }
+    .popup .content{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        
+        width: 350px;
+        height: 450px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+       
+        display: flex;
+      
+    
+    }
+    }
+    @media screen and (min-width:501px) and (max-width:1000px){
+        .read1{
+ left:9em;
+ top:-1em;
+ 
+        }
+        
+        .read2{
+         left:6em;
+         top:-1em;
+     }
+     .read3{
+         left:9em;
+         top:-1em;
+     }
+     .read4{
+         background-color: #fff;
+         left:9em;
+         top:-1em;
+     }
+     }
+  
